@@ -1,0 +1,25 @@
+*{
+    font-family: sans-serif;
+    color: black
+}
+.rojo{
+    border: 10px ridge red;
+}
+.rosa{
+    border: 10px dashed pink;
+}
+.amarillo{
+    border: 10px double yellow;
+}
+.violeta{
+    border: 10px inset purple;
+}
+.verde{
+    border: 10px dotted green;
+}
+.azul{
+    border: 10px outset blue;
+}
+.negro{
+    border: 10px ridge black;
+}

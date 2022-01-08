@@ -1,0 +1,16 @@
+*{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    color: #e63946;
+}
+div{ /*Solo del border hay configuracion. El padding es adentro de la caja y el margin es afuera de la caja*/
+    padding: 10px;
+    border: 15px solid #457b9d;
+    margin: 20px;
+    background-color: #f1fa99;
+    width: 100px; /*Te da el tamaño de la caja*/
+    outline: 2px solid black
+
+}

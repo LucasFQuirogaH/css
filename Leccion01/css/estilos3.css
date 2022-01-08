@@ -1,0 +1,13 @@
+*{ /*Selector universal*/
+    font-family: 'Roboto', sans-serif;
+}
+#titulo{
+    color: crimson;
+    text-align: center;
+}
+.centrar{
+    text-align: center;
+}
+.textoGrande{
+    font-size: 50px;
+}

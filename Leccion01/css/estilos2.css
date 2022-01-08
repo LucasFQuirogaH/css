@@ -1,0 +1,5 @@
+h1{
+    color: crimson !important; /*Le pones important para que tome ese valor y */
+    text-align: right;
+}
+/*Los estilos de mayor prioridad son */
