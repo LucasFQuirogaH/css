@@ -6,12 +6,10 @@ h1{
     color: #e63946;
 }
 div{ /*Solo del border hay configuracion. El padding es adentro de la caja y el margin es afuera de la caja*/
-    padding: 10px;
-    border: 15px solid #457b9d;
-    margin: 20px;
-    background-color: #f1fa99;
-    width: 300px; /*Te da el tamaño de la caja*/
-    outline: 2px solid black;
-    outline-offset: 10px; /*Separacion del outline. Solo se puede personalizar con un solo valor*/
+    padding: 10px 15px 5px 3px;
+    border: 1px solid #457b9d;
+    margin: 0 auto; /*Aqui coloca 0 de margen arriba y abajo y a los costados en auto los centra*/
+    background-color: #f1faee;
+    max-width: 300px;
     box-sizing: border-box; /*Acomoda al valor de width sin importar los otros valores*/
 }
