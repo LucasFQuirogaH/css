@@ -1,0 +1,29 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #ef476f;
+    background-color: beige; /*Si nuestar fuente es de color oscuro, nuestro fondo debe ser de color claro*/
+    text-align: center;
+    text-transform: uppercase; /*Para convertir el texto todo en mayuscula*/
+    text-shadow: 2px 2px 2px #ced4da;
+    letter-spacing: 3px /*Para separar las letras*/;
+    word-spacing: 3px; /*Para separar las palabras tambien*/
+}
+.caja{
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+}
+.texto{
+    text-indent: 30px; /*Para colocar sangria*/
+    line-height: 3; /*Interlineado*/
+    white-space: normal; /*nowrap*/
+    text-align: justify;
+    text-decoration: underline; /*Subrayado */
+    /* text-decoration: line-through;*/ /*tachado */
+    /* text-decoration: overline; */  /*Texto arriba*/
+}
