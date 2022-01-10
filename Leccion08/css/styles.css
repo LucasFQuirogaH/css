@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Trocchi&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&effect=shadow-multiple&display=swap');
+/*Aqui te buscas en google google font documentation y buscas efectos. Luego del nombre de la fuente
+colocas effect= shadow-multiple por ejemplo y en en el el elemento en html pones class="font-effect-shadow-multiple.
+Todo eso esta en la documentacion. Y o te olvides de colocar aqui en el CSS que queres esa fuente.
+Todo esto esta en el css0 que se coloca en el link como css y no como ccs2 o cc3*/
+
+
+h1{
+    color: #ef4760;
+    font-family: 'Sofia', cursive; /*Asi como aparece arriba y aqui es como se usa la fuente*/
+    text-align: center;
+    text-transform: uppercase; /*Para mayuscula*/
+    text-shadow: 2px 2px 2px #ced4da;
+}
+.caja{
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+}
+
+.caja.serif{
+    background-color: #5a189a;
+}
+.fuente_times{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal; /*Aqui podes poner cursiva o normal.*/
+    font-weight: 100; /*que tamano de negrita, va de 100 a 900*/
+    font-variant: small-caps; /*Funciona bien si tenes mayusculas durante el texto.
+    Te pone todo en mayuscula pero las realmente mayusculas las pone mas grandes*/
+    font-size: small; /*es una medida. 116px es el tamaño normal de una pagina*/
+}
+.fuente_giorgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1em; /*em es la medida de la pagina. 16px*/
+}
+.caja.sans-serif{
+    background-color: #00b4d8;
+}
+.fuente_arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.fuente_roboto{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fuente_verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vw; /*Se adapta a la pantalla, es responsive*/
+}
+
+.caja.monospace{
+    background-color: #f15bb5;
+}
+.fuente_courier{
+    font-family: 'Courier New', Courier, monospace;
+}
+.caja.cursiva{
+    background-color: #ff8500;
+}
+.fuente_cursiva{
+    font-family: 'lucida handwriting', cursive;
+}
+/*Generalmente se coloca
+font: font-style font-weight font-size line-heigth font-family // Asi se agrega todo de una vez
+*/
