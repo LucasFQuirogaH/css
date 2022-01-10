@@ -14,5 +14,5 @@ div{ /*Solo del border hay configuracion. El padding es adentro de la caja y el 
     box-sizing: border-box;
 }
 p.interno{
-    margin-left: inherit;
+    margin-left: inherit; /*Este hereda lo del padre*/
 }

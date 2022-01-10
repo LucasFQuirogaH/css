@@ -1,7 +1,19 @@
-div{
-    color: red;
+*{
+    font-family: sans-serif;
 }
-
-p.con{
+h1{
     text-align: center;
+    color: #e63946;
+}
+div{ /*Solo del border hay configuracion. El padding es adentro de la caja y el margin es afuera de la caja*/
+    padding: 10px 15px 5px 3px;
+    border: 1px solid #457b9d;
+    margin: 20px; /*Cuando ves el analisis de las cajas se ve que un margen se come al otro.
+    y lo mismo pasa cuando los margenes son diferentes.*/
+    background-color: #f1faee;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+p.interno{
+    margin-left: inherit; /*Este hereda lo del padre*/
 }
