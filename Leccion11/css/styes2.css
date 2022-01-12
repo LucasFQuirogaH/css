@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div{
+    /*
+    Tipos de posiciones: Statics, relative, fixed
+    */
+    position: fixed; /*Si colocas luego top left con valores diferentes no se afectara, porque tiene static*/
+    /* Si colocas relative arriba, luego de agregar elementos debajo este div no se va a mover y siempre conservara su lugar. */
+    /*Si colocas fixed parece que no estuviera ahi y pueden solaparse los elementos*/
+    top: 100px;
+    left: 50px;
+    max-width: 50%; /*Este valor representa el maximo valor cuando agrandes la pantalla*/
+    width: 50%; /*Colocar % hace que se ajuste cuando achicas la pantalla*/
+    border: 3px solid firebrick;
+    margin: auto; /*Coloca el mismo valor del lado izquierdo y derecho*/
+}

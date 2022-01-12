@@ -1,0 +1,16 @@
+h1, div, p{
+    border: 3px solid blueviolet;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 10px;
+    display: block; /*Si le pones inline sale en linea, sino block para ponerlo un abajo del otro*/
+}
+span{
+    display: block; /*Si lo colocas aparte solo te pone aqui sin recuadro pero al estar dentro de un elemento quer si tiene definido un recuadro este estara dentroo del recuadro general */
+}
+a{
+    display: block;
+}
+li{
+    display: inline;
+}
