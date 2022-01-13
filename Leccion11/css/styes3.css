@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.relativo{
+    width: 500px;
+    height: 300px;
+    left: 100px;
+    position: relative;
+    border: 3px solid skyblue;
+}
+div.absoluto{
+    position: absolute; 
+    bottom: 0;
+    right: 0; /*Con esto y tratando colocando dentro de otro elemento div padre se posiciona
+    dentro del recuadro del div padre en 0 a la derecha y 0 abajo*/
+    max-width: 50%;
+    width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+}

@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.absoluto{
+    position: sticky; /*esta funcion no funciona en internet explorer*/
+    /* position: -webkit-sticky; aqui para que funcione en safari */
+    top: 0;
+    border: 3px solid firebrick;
+}
