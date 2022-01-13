@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.contenedor{
+    position: relative;
+    border: 3px dashed greenyellow;
+    width: 30%;
+    margin: auto; /*Para que se coloque al medio solo*/
+}
+img.imagen{ /*Aqui si le pones img o no se lo pones es lo mismo.
+    Lo que haces es especificar que solo le pones a los img que contengan
+    la clase imagen*/
+    width: 100%;
+    opacity: 0.2;
+}
+div.centro{
+    position: absolute;
+    top: 50%;
+    width: 100%; /*Aqui podes ponerlo solo para ver que necesitas ponerlo al medio y al 100% para
+    que sepas cuanto es tu 100% */
+    /*border: 2px solid skyblue;*/
+    text-align: center;
+    font-size: 40px;
+}
