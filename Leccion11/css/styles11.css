@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    color: #457b9d;
+}
+div.contenedor{
+    /*border: 3px dashed greenyellow;*/
+    width: 80%;
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    border: 3px dashed #a8dadc;
+}
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: larger;
+    background-color: #a8dadc;
+    border: 1px solid #457b9d;
+    height: 50px;
+    padding: 5px;
+    display: inline-block;/*Si le pones solo block se muestra en una nueva linea*/
+}
+.menu{
+    list-style-type: none;
+    text-align: center;
+}
+.menu li{ /*Cuando colocas una clase cualquiera sin referenciarlo a un elemento css va con punto añ principio
+    Sino va al reves como se coloca aqui arriba*/
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    background-color: #e63946;
+    border-radius: 5px;
+}
