@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #e63046;
+}
+div.contenedor{
+    display: flex; /*Se coloca en linea*/
+    background-color: #560bad;
+    flex-direction: row;/*column en vertical row en linea*/
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; aqui podes colocar todo de una */
+    justify-content: center; /*flex end, space between, space around, space evenly */
+    height: 300px;
+    align-items: baseline; /*Tenes mas, strech baseline para acomodar con el texto directamente*/
+    align-content: center;
+}
+div.contenedor > p{
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
